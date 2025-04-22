@@ -14,12 +14,12 @@
 	<url>http://recombee.com</url>
 
 	<properties>
-		<revision>5.0.0-SNAPSHOT</revision>
+		<revision>5.0.0</revision>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<com.recombee.api-client.version>5.0.0</com.recombee.api-client.version>
 		<!-- spring versions -->
 		<spring.boot.2.version>2.7.18</spring.boot.2.version>
-		<spring.boot.3.version>3.4.1</spring.boot.3.version>
+		<spring.boot.3.version>3.4.4</spring.boot.3.version>
 	</properties>
 
 	<licenses>
