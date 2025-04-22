@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+de._125m125.recombee.api_client.spring.boot._2.autoconfiguration.RecombeeClientAutoconfiguration
