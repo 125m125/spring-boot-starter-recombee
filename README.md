@@ -4,15 +4,18 @@ Spring Boot 2 and 3 Integration for the [Recombee Java API Client](https://githu
 
 It provides a starter that includes the api-client and an AutoConfiguration to create automatically create a RecombeeClient Bean based on the configuration in the properties.
 
-## Installation and Usage
+## Installation
 
-Add the following `<dependency>` entry to your project's POM. For Spring Boot 2, use the following:
+[![Maven Central Version](https://img.shields.io/maven-central/v/de.125m125.recombee/api-client-spring-boot-3-starter)](https://central.sonatype.com/artifact/de.125m125.recombee/api-client-spring-boot-3-starter)
 
+The artifacts are published to maven central. If you are using maven, you can add the following `<dependency>` entry to your project's POM:
+
+For Spring Boot 2, use the following:
 ```xml
     <dependency>
         <groupId>de.125m125.recombee</groupId>
         <artifactId>api-client-spring-boot-2-starter</artifactId>
-        <version>5.0.0</version>
+        <version>${recombee-api-client.version}</version>
     </dependency>
 ```
 
@@ -22,9 +25,11 @@ For Spring Boot 3, use the following:
 	<dependency>
 		<groupId>de.125m125.recombee</groupId>
 		<artifactId>api-client-spring-boot-3-starter</artifactId>
-		<version>5.0.0</version>
+		<version>${recombee-api-client.version}</version>
 	</dependency>
 ```
+
+## Usage
 
 For the automatic configuration of the bean, you need to add the following properties:
 
