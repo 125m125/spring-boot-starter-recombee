@@ -16,10 +16,11 @@
 	<properties>
 		<revision>6.1.0-SNAPSHOT</revision>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<com.recombee.api-client.version>6.0.0</com.recombee.api-client.version>
+		<com.recombee.api-client.version>6.1.0</com.recombee.api-client.version>
 		<!-- spring versions -->
 		<spring.boot.2.version>2.7.18</spring.boot.2.version>
-		<spring.boot.3.version>3.5.7</spring.boot.3.version>
+		<spring.boot.3.version>3.5.13</spring.boot.3.version>
+		<spring.boot.4.version>4.0.5</spring.boot.4.version>
 	</properties>
 
 	<licenses>
@@ -73,6 +74,16 @@
 				<artifactId>api-client-spring-boot-3-starter</artifactId>
 				<version>${project.version}</version>
 			</dependency>
+			<dependency>
+				<groupId>de.125m125.recombee</groupId>
+				<artifactId>api-client-spring-boot-4-autoconfigure</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>de.125m125.recombee</groupId>
+				<artifactId>api-client-spring-boot-4-starter</artifactId>
+				<version>${project.version}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 
@@ -81,6 +92,8 @@
 		<module>api-client-spring-boot-2-starter</module>
 		<module>api-client-spring-boot-3-autoconfigure</module>
 		<module>api-client-spring-boot-3-starter</module>
+		<module>api-client-spring-boot-4-autoconfigure</module>
+		<module>api-client-spring-boot-4-starter</module>
 	</modules>
 
 	<build>
